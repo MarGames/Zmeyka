@@ -28,7 +28,6 @@ public class People : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            //Debug.Log("Entered");
             ComeToMouth = true;
         }
     }
